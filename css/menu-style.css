@@ -1,6 +1,7 @@
 /* Menu bar section */
 nav{
     padding: 20px 0;
+    padding-left: 65px;
 }
 
 nav ul{

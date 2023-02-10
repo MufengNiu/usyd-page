@@ -7,14 +7,15 @@ header{
 }
 
 .header_content{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
+    padding-left: 50px;
     justify-content: space-between;
 }
 
 .header_logo{
-    padding-left: 10px;
+    padding-left: 65px;
 }
 
 .header_logo img{
@@ -22,13 +23,20 @@ header{
 }
 
 .header_title{
-    margin-right:80px
+    margin-right:80px;
+    padding-left: 60px;
 }
 
 .header_title h1{
     font-size: bold;
     line-height: 50px;
 }
+
+.header_link{
+    display: flex;
+    padding-right: 30px;
+}
+
 
 .header_link_text p{
     margin-right:10px;
@@ -38,9 +46,6 @@ header{
     font-style: bold;
 }
 
-.header_link{
-    display: flex;
-}
 
 .header_link_cart img{
     margin-right: 65px;
