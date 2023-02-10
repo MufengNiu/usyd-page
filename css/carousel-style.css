@@ -6,34 +6,35 @@
 }
 
 #myCarousel{
-    margin-left: 70px;
-    width: 1100px;
+    margin-left: 0px;
 }
-
 
 .carousel-inner{
     height: 360px;
 }
 
+.carousel_control_dots{
+    padding-top: 15px;
+}
 
 .carousel_content{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 400px;
 }
 
 .carousel_button{
     float: right;
 }
 .carousel-inner img{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
 }
 
 .carousel_text{
     width: 450px;
-    margin-right: 150px;
+    margin-right: 300px;
 }
 
 
@@ -49,4 +50,5 @@
     font-size: 20px;
     font-weight: bold;
 }
+
 
