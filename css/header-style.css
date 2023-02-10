@@ -1,0 +1,50 @@
+/* Header section */
+header{
+    padding: 15px 0;
+    border-bottom: 1px solid #aaa;
+    box-shadow: 3px 3px #eee;
+    height: 55px;
+}
+
+.header_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    padding-left: 10px;
+}
+
+.header_logo img{
+    height: 55px;
+}
+
+.header_title{
+    margin-right:80px
+}
+
+.header_title h1{
+    font-size: bold;
+    line-height: 50px;
+}
+
+.header_link_text p{
+    margin-right:10px;
+    line-height: 50px;
+    color: red;
+    font-size: 17px;
+    font-style: bold;
+}
+
+.header_link{
+    display: flex;
+}
+
+.header_link_cart img{
+    margin-right: 65px;
+    padding-top: 9px;
+    height: 28px;
+    color: red;
+}
