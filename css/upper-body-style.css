@@ -82,13 +82,13 @@
 
 .upper_body_text_wrapper{
     position: absolute;
-    width: 340px;
+    width: 420px;
     height: 420px;
     background-color: white;
     border: 1px solid #333;
     bottom:-120px;
     padding: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-bottom: 6px;
 }
 .upper_body_text{
@@ -98,6 +98,7 @@
 .upper_body_text p{
     line-height: 30px;
     font-size: 20px;
+    font-weight: bold;
 }
 .upper_body_text_button a{
     display: flex;
