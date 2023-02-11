@@ -51,7 +51,7 @@
 
 .main_body_button_img{
     padding: 5px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .main_body_button_img img{
@@ -181,7 +181,7 @@
     padding-top: 10px;
 }
 .display_button img{
-    width: 70px;
+    width: 100px;
 }
 
 .main_body_right_bottom{

@@ -2,41 +2,53 @@
 .bootstrap-iso{
     clear: both;
     height: 360px;
-    background-color: orangered;
+    background-color: #E75032;
+    padding-left: 100px;
 }
 
 #myCarousel{
-    margin-left: 0px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+
 }
 
 .carousel-inner{
     height: 360px;
+    position: relative;
 }
 
 .carousel_control_dots{
     padding-top: 15px;
 }
 
-.carousel_content{
+.item{
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 400px;
+    position: relative;
+    margin-top: 40px;
 }
 
-.carousel_button{
-    float: right;
+.carousel_content{
+    display: flex;
+    position: inherit;
+    margin-left: 150px;
 }
+
+
+.carousel_image{
+    position: relative;
+}
+
 .carousel-inner img{
     width: 280px;
     height: 280px;
 }
 
 .carousel_text{
-    width: 450px;
-    margin-right: 300px;
+    width: 550px;
+    position: relative;
+    padding-left: 100px;
 }
-
 
 .carousel_text h1{
     color: white;
@@ -44,11 +56,9 @@
     font-size: 45px;
 }
 
-
 .carousel_text p{
     color: white;
     font-size: 20px;
     font-weight: bold;
 }
-
 

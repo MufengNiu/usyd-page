@@ -1,9 +1,11 @@
 /* Header section */
 header{
+    height: 55px;
     padding: 15px 0;
     border-bottom: 1px solid #aaa;
     box-shadow: 3px 3px #eee;
-    height: 55px;
+    position: relative;
+    padding-left: 90px;
 }
 
 .header_content{
@@ -12,6 +14,7 @@ header{
     display: flex;
     padding-left: 50px;
     justify-content: space-between;
+    position: relative;
 }
 
 .header_logo{

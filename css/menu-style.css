@@ -2,6 +2,8 @@
 nav{
     padding: 20px 0;
     padding-left: 65px;
+    position: relative;
+    padding-left: 150px;
 }
 
 nav ul{
